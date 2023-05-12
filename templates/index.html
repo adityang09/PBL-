@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action='/predict' method="POST">
+        Bath : <input type="text" name="Bath"><br>
+        Balcony : <input type="text" name="Balcony"><br>
+        New_Total_Sqft: <input type="text" name="New_Total_Sqft"><br>
+        bhk : <input type="text" name="bhk"><br>
+        Class : {{result*10000000}} <br>
+        <input type="submit" value="predict"> 
+    </form>
+</body>
+</html>
